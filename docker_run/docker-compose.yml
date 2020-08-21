@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web-flask:
+    build: .
+    image: cometcker/dockerflask
+    ports: 
+        - "29999:5000"
